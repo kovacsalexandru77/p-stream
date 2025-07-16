@@ -5,7 +5,7 @@ services:
   movieweb:
     build:
       context: .
-      # args:
+       args:
       #   PWA_ENABLED: "false"
       #   GA_ID: ""
       #   APP_DOMAIN: ""
@@ -14,7 +14,7 @@ services:
       #   CORS_PROXY_URL: ""
       #   DMCA_EMAIL: ""
       #   NORMAL_ROUTER: "false"
-      #   BACKEND_URL: ""
+         BACKEND_URL: "https://filminvazio.pro/"
       #   HAS_ONBOARDING: "false"
       #   ONBOARDING_CHROME_EXTENSION_INSTALL_LINK: ""
       #   ONBOARDING_PROXY_INSTALL_LINK: ""
